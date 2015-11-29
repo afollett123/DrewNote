@@ -137,7 +137,12 @@ public class NoteDictionary implements NoteCollection{
 
 	@Override
 	public boolean remove(Note note) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub+
+		
+		
+		
+		
+		
 		return false;
 	}
 

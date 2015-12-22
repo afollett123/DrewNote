@@ -32,77 +32,60 @@ public class BinarySearchSortedArray implements NoteCollection{
 		}
 	
 
-	
-	// Node class imported from other projects; modified to stores note ids and Text
-	private class Node {
-	  private int id; // Note's id
-	  private Note note; // Note Obj
-	  private Node next; // Pointer to next note in the dictionary
-
-		private Node(long id, Note note) {
-			this(id, note, null);	
-		} 
-		
-		private Node(long id, Note note, Node nextNode) {
-			id = id; // Unique ID of note
-			note = note; // Note stored here
-			next = nextNode; // Pointer to next note
-		} 
-	}
-
-
-
 	@Override
 	public boolean add(Note newNote) {
-		// TODO Auto-generated method stub
+		if(newNote > SIZE);
+			SIZE++;
+			newNote.add(Note);
 		return false;
 	}
 
 	@Override
 	public Note lookup(long ID) {
-		// TODO Auto-generated method stub
+		// CALL A SORT INTERFACE, CREATE A SORT OBJECT AND CALL IT
+		//CALL BINARY SEARCH
 		return null;
 	}
 
 	@Override
 	public boolean remove(long ID) {
-		// TODO Auto-generated method stub
+		//BinarySearchSortedArray 
 		return false;
 	}
 
 	@Override
 	public boolean remove(Note note) {
-		// TODO Auto-generated method stub
+		//BINARY SEARCH 
+		//HAVE THIS ONE CALL NOTE.GETiD with other remove
 		return false;
 	}
 
 	@Override
 	public boolean isEmpty() {
-		// TODO Auto-generated method stub
+		if (SIZE == 0);
 		return false;
 	}
 
 	@Override
 	public int getSize() {
-		// TODO Auto-generated method stub
+		get.Size(newNote);
 		return 0;
 	}
 
 	@Override
 	public boolean contains(Note note) {
-		// TODO Auto-generated method stub
+		// CALLING ID
 		return false;
 	}
 
 	@Override
 	public boolean contains(long ID) {
-		// TODO Auto-generated method stub
+		// CALLING BINARY SEACRH
 		return false;
 	}
 
 	@Override
 	public Note[] toArray() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
